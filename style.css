@@ -1,0 +1,232 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: white;
+    color: black;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+   
+    list-style: none;
+}
+
+.report{
+    position: fixed;
+    text-align: center;
+    padding: 10px  20px;
+    height: 50px;
+}
+
+
+
+ .main-header{
+    position: fixed;
+    top:  0;
+    left: 2%; 
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 30px;
+
+ }
+
+
+ .logo{
+    width: 100px;
+    height: auto;
+ }
+
+ .logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+
+ .main-menu{
+    margin-left: 300px;
+    margin-right: 300px;
+ }
+
+ .main-menu ul{
+   
+    flex: 1;
+    text-align: center;
+ }
+  
+ .main-menu ul li{ 
+    
+    display: inline-block;
+    margin: 10px 32px;
+ }
+
+ .side{
+    margin-left: 30px;
+ }
+
+.side ol{
+    flex:1;
+    text-align: center;
+ }
+
+ .side ol li{
+    display: inline-block;
+    margin: 10px 10px;
+ }
+
+ section{ 
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+   
+ }
+
+.section-inner{
+    position: absolute;
+    bottom: 720px;
+    left: 600px;
+    max-width: 800px;
+}
+
+.section-inner h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    font-weight: 50;
+}
+
+.section-inner h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 400; 
+    margin-bottom: 10px;
+    margin-left: 150px;
+   
+}
+
+
+
+
+.section-a{
+    background-image: url('images/1model3.jpg');  
+}
+
+.section-b{
+    background-image: url('images/2modelY.jpg');  
+}
+
+.section-c{
+    background-image: url('images/3modelS.jpg');  
+}
+
+.section-d{
+    background-image: url('images/4modelX.jpg');  
+}
+
+.section-e{
+    background-image: url('images/5panel.jpg');  
+}
+
+.section-f{
+    background-image: url('images/6roof.jpg');  
+}
+.section-g{
+    background-image: url('images/7.jpg');  
+}
+
+.button{
+    position: absolute;
+    display: flex;
+    margin-top: 580px;
+    margin-left: 75px;
+    
+}
+.button .btn{
+    text-align: center; 
+    padding: 9px 38px 27px 35px;
+    margin-right: 15px;
+    text-decoration: none solid rgb(255, 255, 255);
+    color: #ffff;
+    background-color: #373a41;
+    height: 40px;
+    width: 264px;
+    border-radius: 30px;
+}
+.button .btn2{
+    padding: 9px 38px 27px 35px;
+    margin-right: 15px;
+    text-decoration: none solid rgb(57, 60, 65);
+    color: #393c47;
+    background-color: #f4f4f4;
+    height: 40px;
+    width: 264px;
+    border-radius: 30px;
+}
+
+
+.scroll-arrow{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateY(-50%);
+    animation: fadeBouncer 3s infinite;
+
+
+}
+
+
+footer{
+    position: relative; 
+    padding: 20px 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul li{
+    margin-right: 30px;
+    color: rgb(14, 12, 12);
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 2.5;
+}
+
+footer ul li a{
+    color: rgb(17, 15, 15);
+    transition: color 0.6s;
+}
+
+footer ul li a:hover{
+    color: #aaa;
+}
+
+
+
